@@ -1,0 +1,50 @@
+vi:
+  my_site: "Trang web của tôi"
+  Title: "Ruby on Rails Tutorial Sample App"
+  users:
+    index:
+      user: 'Người dùng'
+      name: 'Tên'
+      email: 'Địa chỉ mail'
+      show: 'Xem chi tiết'
+      edit: 'Chinh sửa'
+      destroy: 'Xóa'
+      new_user: 'Thêm người dùng'
+      date: 'Ngày tạo'
+
+  greeting:
+    hello: "Xin chào"
+    description: "Chào mừng bạn đến với Bắc Giang"
+
+  home:
+    home: "Trang chủ"
+    title: "Ứng Dụng Mẫu"
+    text:
+      title: "Đây là trang chính"
+      link: "Ruby on Rails Tutorial"
+      sample_application: "Ứng dụng mẫu "
+
+  help:
+    help_page: "Trang hướng dẫn"
+    rails_book: "Sách rails"
+    Help: "Hướng dẫn"
+    help: "Hướng dẫn"
+    title1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+    title2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+
+  about:
+    about: "Giới thiệu"
+    the: " cuốn hướng dẫn Ruby on Rails "
+    ruby_Tutorial: "là"
+    is_a: "một"
+    book: "cuốn sách"
+    and: "và"
+    screencast: "screencast series"
+    to_teach: "để dạy phát triển web và "
+    ruby_Rails: "Ruby on Rails"
+    this_tutorial: "Đây là ứng dụng mẫu"
+
+  contact:
+    contact: "Liên hệ"
+    contact_the: "Liên hệ về Ruby on Rails tại các"
+    contact_page: "trang liên hệ"
