@@ -30,4 +30,57 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  my_site: "My site"
+  Title: "Ruby on Rails Tutorial Sample App"
   hello: "Hello world"
+  users:
+    index:
+      user: 'Users'
+      name: 'Name'
+      email: 'Email'
+      show: 'Show'
+      edit: 'Edit'
+      destroy: 'Destroy'
+      new_user: 'New User'
+      date: 'Create date'
+
+  greeting:
+    hello: "hello"
+    description: "Welcome to Bac Giang"
+
+  home:
+    home: "Home"
+    title: "Sample App"
+    text:
+      title: "This is the home page for the"
+      link : "Ruby on Rails Tutorial"
+      sample_application: "sample application"
+
+  help:
+    help_page: "Help page"
+    rails_book: "Rails Book"
+    Help: "Help"
+    help: "Help"
+    title1: "Get help on the Ruby on Rails Tutorial at the"
+    title2: "To get help on this sample app, see the"
+
+
+  about:
+    about: "About"
+    the: "The"
+    ruby_Tutorial: "Ruby on Rails Tutorial"
+    is_a: "is a"
+    book: "book"
+    and: "and"
+    screencast: "screencast series"
+    to_teach: "to teach web development with"
+    ruby_Rails: "Ruby on Rails"
+    this_tutorial: "This is the sample
+    application for the tutorial."
+
+
+  contact:
+    contact: "Contact"
+    contact_the: "Contact the Ruby on Rails Tutorial about the sample app at
+    the"
+    contact_page: "contact page"
