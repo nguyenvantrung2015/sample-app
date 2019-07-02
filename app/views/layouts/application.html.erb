@@ -3,12 +3,14 @@
   <head>
     <title><%= full_title yield :title %></title>
     <%= csrf_meta_tag %>
-    <%= stylesheet_link_tag "application" %>
-    <%= javascript_include_tag "application" %>
+    <%= render "layouts/rails_default" %>
+    <%= render "layouts/shim" %>
   </head>
   <body>
-    <%= link_to "English", locale: "en" %>
-    <%= link_to "Vietnamese", locale: "vi" %>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
   </body>
 </html>

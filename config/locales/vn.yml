@@ -17,8 +17,10 @@ vi:
     description: "Chào mừng bạn đến với Bắc Giang"
 
   home:
+    sign_up_now: "Đăng nhập ngay bây giờ!"
     home: "Trang chủ"
-    title: "Ứng Dụng Mẫu"
+    title: "chào mừng bạn đến ứng dụng mẫu"
+    news: "Tin tức"
     text:
       title: "Đây là trang chính"
       link: "Ruby on Rails Tutorial"
@@ -48,3 +50,8 @@ vi:
     contact: "Liên hệ"
     contact_the: "Liên hệ về Ruby on Rails tại các"
     contact_page: "trang liên hệ"
+
+  footer:
+    ror: "Ruby on Rails"
+    the: "The"
+    by: "By"

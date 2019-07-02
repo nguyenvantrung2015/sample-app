@@ -1,7 +1,11 @@
 <% provide :title, t("home.home") %>
-<h1><%= t "home.title" %></h1>
-<p>
-  <%= t "home.text.title" %>
-  <%= link_to t("my_site"), "https://www.railstutorial.org/" %>
-  <%= t "home.text.sample_application" %>
-</p>
+<div>
+  <h1><%= t "home.title" %></h1>
+  <h2>
+    <%= t "home.text.title" %>
+    <%= link_to t("my_site"), "https://www.railstutorial.org/" %>
+    <%= t "home.text.sample_application" %>
+  </h2>
+  <%= link_to t("home.sign_up_now"), "#", class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo"),"http://rubyonrails.org/"%>
