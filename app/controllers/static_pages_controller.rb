@@ -1,5 +1,4 @@
 class StaticPagesController < ApplicationController
-  layout "frames"
   def home; end
 
   def help; end

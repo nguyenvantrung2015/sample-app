@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title><%= full_title yield :title %></title>
+    <%= csrf_meta_tag %>
+    <%= stylesheet_link_tag "application" %>
+    <%= javascript_include_tag "application" %>
+  </head>
+  <body>
+    <%= link_to "English", locale: "en" %>
+    <%= link_to "Vietnamese", locale: "vi" %>
+    <%= yield %>
+  </body>
+</html>
