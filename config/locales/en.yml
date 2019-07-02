@@ -49,8 +49,10 @@ en:
     description: "Welcome to Bac Giang"
 
   home:
+    sign_up_now: "Sign up now!"
     home: "Home"
-    title: "Sample App"
+    title: "Welcome to the Sample App"
+    news : "News"
     text:
       title: "This is the home page for the"
       link : "Ruby on Rails Tutorial"
@@ -84,3 +86,10 @@ en:
     contact_the: "Contact the Ruby on Rails Tutorial about the sample app at
     the"
     contact_page: "contact page"
+
+
+  footer:
+    ror: "Ruby on Rails"
+    michael_hartl: "Michael Hartl"
+    the: "The"
+    by: "By"
