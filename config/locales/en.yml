@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  sample_app: "sample app"
   my_site: "My site"
   Title: "Ruby on Rails Tutorial Sample App"
   hello: "Hello world"
@@ -50,6 +51,7 @@ en:
 
   home:
     sign_up_now: "Sign up now!"
+    sign_up: "Sign up now!"
     home: "Home"
     title: "Welcome to the Sample App"
     news : "News"
@@ -93,3 +95,6 @@ en:
     michael_hartl: "Michael Hartl"
     the: "The"
     by: "By"
+
+  user:
+    welcome: "Hi, My Name is Trung"

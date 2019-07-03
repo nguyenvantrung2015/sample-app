@@ -1,4 +1,5 @@
 vi:
+  sample_app: "sample app"
   my_site: "Trang web của tôi"
   Title: "Ruby on Rails Tutorial Sample App"
   users:
@@ -17,7 +18,8 @@ vi:
     description: "Chào mừng bạn đến với Bắc Giang"
 
   home:
-    sign_up_now: "Đăng nhập ngay bây giờ!"
+    sign_up_now: "Đăng ký ngay bây giờ!"
+    sign_up: "Đăng ký"
     home: "Trang chủ"
     title: "chào mừng bạn đến ứng dụng mẫu"
     news: "Tin tức"
@@ -55,3 +57,6 @@ vi:
     ror: "Ruby on Rails"
     the: "The"
     by: "By"
+
+  user:
+    welcome: "Xin chào, tôi là Trung"
