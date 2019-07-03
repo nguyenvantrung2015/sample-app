@@ -1,6 +1,20 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+$gray-medium-light: #eaeaea;
+$gray-light: #777;
+$gray-darker: #222;
+$gray-white: #bbb;
+$white: #fff;
+$red: #f00;
+$brown: #555;
+$blue: #0000ff;
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   padding-top: 60px;
 }
@@ -40,7 +54,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $gray-light;
 }
 
 p {
@@ -54,7 +68,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: $white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -62,7 +76,7 @@ p {
 }
 
 #logo:hover {
-  color: #fff;
+  color: $white;
   text-decoration: none;
 }
 
@@ -71,16 +85,16 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
+  border-top: 1px solid $gray-white;
+  color: $gray-medium-light;
 }
 
 footer a {
-  color: #555;
+  color: $brown;
 }
 
 footer a:hover {
-  color: #222;
+  color: $gray-darker;
 }
 
 footer small {
@@ -95,4 +109,42 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+/* miscellaneous */
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
+}
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid $gray-white;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box_sizing;
+}
+
+input {
+  height: auto !important;
+}
+
+#error_explanation {
+  color: $red;
+  ul {
+    color: $red;
+    margin: 0 0 30px;
+  }
+}
+
+.field_with_errors {
+  @extend .has-error;
+  .form-control {
+    color: $blue;
+  }
 }
