@@ -97,4 +97,12 @@ en:
     by: "By"
 
   user:
+    create_account: "Create my account!"
     welcome: "Hi, My Name is Trung"
+    sign_up: "Sign Up"
+    alert_up: "Welcome to the Sample App!"
+    alert_up_fail: "You can't create an account !!"
+    form_contains: "The form contains"
+
+  sign_up:
+    confirmation: "Confirmation"

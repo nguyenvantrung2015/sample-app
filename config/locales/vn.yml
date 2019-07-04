@@ -59,4 +59,12 @@ vi:
     by: "By"
 
   user:
+    create_account: "Tạo tài khoản của tôi"
     welcome: "Xin chào, tôi là Trung"
+    sign_up: "Đăng ký"
+    alert_up: "Chào mừng đến với Sample App!"
+    alert_up_fail: "Bạn không thể tạo tài khoản !!"
+    form_contains: "The form contains"
+
+  sign_up:
+    confirmation: "Xác nhận mật khẩu"
