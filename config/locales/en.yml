@@ -98,6 +98,7 @@ en:
 
   user:
     create_account: "Create my account!"
+    users: "Users"
     welcome: "Hi, My Name is Trung"
     sign_up: "Sign Up"
     alert_up: "Welcome to the Sample App!"
@@ -106,3 +107,19 @@ en:
 
   sign_up:
     confirmation: "Confirmation"
+
+  login:
+    login: "Log in"
+    new_user: "New user?"
+    error: "Invalid email/password combination"
+
+  profile:
+    profile: "Profile"
+
+  setting:
+    settings: "Settings"
+
+  logout:
+    logout: "Log out"
+
+  account: "Account"
