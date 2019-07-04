@@ -70,6 +70,7 @@ vi:
     confirmation: "Xác nhận mật khẩu"
 
   login:
+    remember: "Ghi nhớ đăng nhập!"
     login: "Đăng Nhập"
     new_user: "New user?"
     error: "Email,mật khẩu không hợp lệ"

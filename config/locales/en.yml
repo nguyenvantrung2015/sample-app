@@ -109,6 +109,7 @@ en:
     confirmation: "Confirmation"
 
   login:
+    remember: "Remember me on this computer"
     login: "Log in"
     new_user: "New user?"
     error: "Invalid email/password combination"
