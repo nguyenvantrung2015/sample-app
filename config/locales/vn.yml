@@ -68,3 +68,19 @@ vi:
 
   sign_up:
     confirmation: "Xác nhận mật khẩu"
+
+  login:
+    login: "Đăng Nhập"
+    new_user: "New user?"
+    error: "Email,mật khẩu không hợp lệ"
+
+  profile:
+    profile: "Thông tin cá nhân"
+
+  setting:
+    settings: "Cài đặt"
+
+  logout:
+    logout: "Thoát"
+
+  account: "Tài khoản"
