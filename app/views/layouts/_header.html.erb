@@ -3,10 +3,12 @@
     <%= link_to t("sample_app"), root_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("English"), locale: "en" %></li>
+        <li><%= link_to t("Vietnamese"), locale: "vi" %></li>
         <li><%= link_to t("home.home"), root_path %></li>
         <li><%= link_to t("help.help"), help_path %></li>
         <% if logged_in? %>
-          <li><%= link_to t("user.users"), "#" %></li>
+          <li><%= link_to t("user.users"), users_path %></li>
           <li class="dropdown">
             <%= link_to "#", class: "dropdown-toggle",
                         data: {toggle: "dropdown"} do %>
@@ -15,7 +17,7 @@
             <% end %>
             <ul class="dropdown-menu">
               <li><%= link_to t("profile.profile"), current_user %></li>
-              <li><%= link_to t("setting.settings"), '#' %></li>
+              <li><%= link_to t("setting.settings"), edit_user_path(current_user) %></li>
               <li class="divider"></li>
               <li>
                 <%= link_to t("logout.logout"), logout_path, method: :delete %>
