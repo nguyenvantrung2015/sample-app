@@ -30,6 +30,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  English: "English"
+  Vietnamese: "Vietnamese"
   sample_app: "sample app"
   my_site: "My site"
   Title: "Ruby on Rails Tutorial Sample App"
@@ -97,6 +99,22 @@ en:
     by: "By"
 
   user:
+    edit:
+      save_change: "Save changes"
+      title_update: "Update your profile"
+      title_edit: "Edit user"
+      change: "Change"
+    updated:
+      title_profile: "Profile updated"
+    login:
+      please-login: "Please log in."
+    index:
+      all_user: "All users"
+    delete:
+      delete: "delete"
+      confirm: "You sure?"
+      user-delete: "User deleted"
+      user-no-delete: "Can't delete"
     create_account: "Create my account!"
     users: "Users"
     welcome: "Hi, My Name is Trung"

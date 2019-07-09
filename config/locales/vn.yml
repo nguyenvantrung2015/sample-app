@@ -1,4 +1,6 @@
 vi:
+  English: "Tiếng Anh"
+  Vietnamese: "Tiếng Việt"
   sample_app: "sample app"
   my_site: "Trang web của tôi"
   Title: "Ruby on Rails Tutorial Sample App"
@@ -59,7 +61,24 @@ vi:
     by: "By"
 
   user:
+    edit:
+      save_change: "Lưu thay đổi"
+      title_update: "Cập nhật thông tin"
+      title_edit: "Thay đổi thông tin"
+      change: "Thay đổi"
+    updated:
+      title_profile: "Thay đổi thông tin cá nhân"
+    login:
+      please-login: "Vui lòng đăng nhập."
+    index:
+      all_user: "Tất cả người dùng"
+    delete:
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn chứ ?"
+      user-delete: "Xóa"
+      user-no-delete: "không thể xóa"
     create_account: "Tạo tài khoản của tôi"
+    users: "Người dùng"
     welcome: "Xin chào, tôi là Trung"
     sign_up: "Đăng ký"
     alert_up: "Chào mừng đến với Sample App!"

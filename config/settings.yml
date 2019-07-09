@@ -4,3 +4,6 @@ user:
   pass_min_length: 6
 image:
   sign_up_size: 80
+
+gravatar_user_size: 50
+per_page_user : 10
