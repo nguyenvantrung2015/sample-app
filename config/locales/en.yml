@@ -122,15 +122,35 @@ en:
     alert_up: "Welcome to the Sample App!"
     alert_up_fail: "You can't create an account !!"
     form_contains: "The form contains"
+    not_found: "User not found!!!"
 
   sign_up:
     confirmation: "Confirmation"
 
   login:
+    forgot_password: "Forgot password"
     remember: "Remember me on this computer"
     login: "Log in"
     new_user: "New user?"
     error: "Invalid email/password combination"
+
+  format_password:
+    submit: "Submit"
+    mail_sent: "Email sent with password reset instructions"
+    not_found_email: "Email address not found"
+    reset_pwd: "Password reset"
+    confirmation: "confirmation"
+    password_reset: "password reset"
+    cant_empty: "password cant be empty"
+    password_expired: "password has been expired"
+    reset_password: "reset your password"
+    content_mail_reset1: "To reset your password click the link below:"
+    content_mail_reset2: "This link will expire in two hours.If you did not
+    request your password to be reset, please ignore this email and your
+    password will stay as it is."
+    lable_password: "password"
+    lable_password_confirmation: "password confirmation"
+    email: "email"
 
   profile:
     profile: "Profile"
