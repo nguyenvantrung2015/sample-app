@@ -104,3 +104,13 @@ vi:
     logout: "Thoát"
 
   account: "Tài khoản"
+  mail:
+    account_activation: "kích hoạt tài khoản"
+    check_mail: "Please check your email to activate your account."
+    account_activated: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    check_email: "check email"
+    invalid_email_password: "invalid email password"
+  email:
+    content: "Welcome to the Sample App! Click on the link below to activate
+      your account"
