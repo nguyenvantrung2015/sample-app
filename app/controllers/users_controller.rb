@@ -1,8 +1,8 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update destroy)
+  before_action :logged_in_user, except: %i(new show create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
-  before_action :find_user, only: %i(show edit update destroy)
+  before_action :find_user, except: %i(index new create)
 
   def index
     @users = User.all.page(params[:page]).per Settings.per_page_user
@@ -75,6 +75,8 @@ class UsersController < ApplicationController
 
   def find_user
     @user = User.find_by id: params[:id]
-    redirect_to root_path if @user.nil?
+    return if @user
+    flash[:danger] = t "user.not_found"
+    redirect_to root_path
   end
 end
