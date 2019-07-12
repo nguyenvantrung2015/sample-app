@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :find_user, only: %i(show edit update destroy)
 
   def index
-    @users = User.all.page(params[:page]).per(Settings.per_page_user)
+    @users = User.all.page(params[:page]).per Settings.per_page_user
   end
 
   def new
@@ -16,9 +16,9 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
-      log_in @user
-      flash[:success] = t "user.alert_up"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "mail.check_email"
+      redirect_to root_url
     else
       flash[:danger] = t "user.alert_up_fail"
       render :new
@@ -75,5 +75,6 @@ class UsersController < ApplicationController
 
   def find_user
     @user = User.find_by id: params[:id]
+    redirect_to root_path if @user.nil?
   end
 end
