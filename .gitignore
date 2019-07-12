@@ -28,9 +28,14 @@
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
+/public/uploads
 /config/master.key
 /config/database.yml
 .env
 /test/
 /.idea/*
 /public/uploads/
+/public/javascripts/
+/config/spring.rb
+/.idea/*
+

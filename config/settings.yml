@@ -10,3 +10,9 @@ per_page_user : 10
 remember_me_true: "1"
 digest:
   expired_time: 2
+limit_size_update_image: 5
+size_image_width: 400
+size_image_height: 400
+post_size: 140
+feed_items: 10
+microitem: 10

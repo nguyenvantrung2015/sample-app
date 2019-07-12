@@ -26,8 +26,11 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user
-    redirect_to signup_path
+    if @user
+      @microposts = @user.microposts.page(params[:page]).per Settings.microitem
+    else
+      redirect_to root_url
+    end
   end
 
   def edit; end

@@ -123,9 +123,12 @@ en:
     alert_up_fail: "You can't create an account !!"
     form_contains: "The form contains"
     not_found: "User not found!!!"
+    view_my: "view my profile"
+    micropost: "micropost"
 
   sign_up:
     confirmation: "Confirmation"
+    error: "error"
 
   login:
     forgot_password: "Forgot password"
@@ -174,3 +177,19 @@ en:
   email:
     content: "Welcome to the Sample App! Click on the link below to activate
     your account"
+  micropost:
+    created_success: "Micropost created !!"
+    created_fail: "Micropost fail !!"
+    deleted : "Micropost deleted"
+    deleted_not: "Micropost deleted fail"
+    limit_size_update_image: "should be less than 5MB"
+    compose_new_micropost: "Compose new micropost..."
+    should_less_5m: "should be less than 5MB"
+    posted: "Posted"
+    ago: "ago"
+    compose_new: "Compose new micropost..."
+    submit_post: "Post"
+    js_micropost: "Maximum file size is 5MB. Please choose a smaller file."
+    h3: "Micropost Feed"
+
+  you_sure: "You sure?"

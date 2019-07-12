@@ -85,9 +85,12 @@ vi:
     alert_up_fail: "Bạn không thể tạo tài khoản !!"
     form_contains: "The form contains"
     not_found: "User not found!!!"
+    view_my: "view my profile"
+    micropost: "micropost"
 
   sign_up:
     confirmation: "Xác nhận mật khẩu"
+    error: "error"
 
   login:
     forgot_password: "Forgot password"
@@ -134,3 +137,69 @@ vi:
   email:
     content: "Welcome to the Sample App! Click on the link below to activate
       your account"
+
+  micropost:
+    created_success: "Micropost created !!"
+    created_fail: "Micropost fail !!"
+    deleted: "Micropost deleted"
+    deleted_not: "Micropost deleted fail"
+    limit_size_update_image: "should be less than 5MB"
+    compose_new_micropost: "Compose new micropost..."
+    should_less_5m: "should be less than 5MB"
+    posted: "Đã đăng"
+    ago: "trước"
+    compose_new: "Compose new micropost..."
+    submit_post: "Post"
+    js_micropost: "Maximum file size is 5MB. Please choose a smaller file."
+    h3: "Micropost Feed"
+
+  you_sure: "You sure?"
+
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: khoảng một giờ
+        other: khoảng %{count} giờ
+      about_x_months:
+        one: khoảng một tháng
+        other: khoảng %{count} tháng
+      about_x_years:
+        one: khoảng một năm
+        other: khoảng %{count} năm
+      almost_x_years:
+        one: gần một năm
+        other: gần %{count} năm
+      half_a_minute: nửa phút trước
+      less_than_x_seconds:
+        zero: ít hơn một giây
+        one: ít hơn một giây
+        other: ít hơn %{count} giây
+      less_than_x_minutes:
+        zero: ít hơn một phút
+        one: ít hơn một phút
+        other: ít hơn %{count} phút
+      over_x_years:
+        one: hơn một năm
+        other: hơn %{count} năm
+      x_seconds:
+        one: 1 seconde
+        other: "%{count} giây"
+      x_minutes:
+        one: 1 minute
+        other: "%{count} phút"
+      x_days:
+        one: 1 jour
+        other: "%{count} giờ"
+      x_months:
+        one: 1 mois
+        other: "%{count} tháng"
+      x_years:
+        one: 1 an
+        other: "%{count} năm"
+    prompts:
+      second: giây
+      minute: phút
+      hour: giờ
+      day: ngày
+      month: tháng
+      year: năm
