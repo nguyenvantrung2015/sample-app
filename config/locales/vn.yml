@@ -154,7 +154,6 @@ vi:
     h3: "Micropost Feed"
 
   you_sure: "You sure?"
-
   datetime:
     distance_in_words:
       about_x_hours:
@@ -203,3 +202,7 @@ vi:
       day: ngày
       month: tháng
       year: năm
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"

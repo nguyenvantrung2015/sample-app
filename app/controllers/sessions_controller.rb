@@ -24,11 +24,6 @@ class SessionsController < ApplicationController
     if user.activated?
       log_in user
       check_remember user
-      if params[:session][:remember_me] == Settings.remember_me_true
-        remember user
-      else
-        forget user
-      end
       redirect_back_or user
     else
       flash[:warning] = t "mail.check_email"
