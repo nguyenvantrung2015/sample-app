@@ -191,5 +191,8 @@ en:
     submit_post: "Post"
     js_micropost: "Maximum file size is 5MB. Please choose a smaller file."
     h3: "Micropost Feed"
-
+  following: "Following"
+  followers: "Followers"
   you_sure: "You sure?"
+  follow: "Follow"
+  unfollow: "Unfollow"

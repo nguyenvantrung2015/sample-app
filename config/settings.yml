@@ -16,3 +16,5 @@ size_image_height: 400
 post_size: 140
 feed_items: 10
 microitem: 10
+follow_in_per: 10
+size_user: 30
